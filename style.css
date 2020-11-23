@@ -1,0 +1,26 @@
+body{
+  font-size: 30px;
+  text-align:center;
+}
+
+
+form{
+  color: white;
+  background-color:#192a56;
+  margin-top:100px;
+  border:solid #2f3640 5px;
+  border-radius: 10px;
+}
+
+
+input[type="reset"],input[type="button"]{
+  color: black;
+  background-color:#dcdde1;
+  padding:15px 32px;
+}
+
+.input{
+  font-size:24px;
+  border:solid black 5px;
+  border-radius: 10px;
+}

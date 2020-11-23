@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <h2>Calculadora de dívisas</h2>
+      <span>Ingrese monto en CLP:</span>
+      <input type="number" id="monto" class="input">
+      <span>Seleccione dívisa:</span>
+      <select name="divisa-moneda" id="divisa" class="input">
+        <option value="usd">$USD - Dolar estadounidense</option>
+        <option value="brl">R$BRL - Real brasileño</option>
+        <option value="ars">$ARS - Peso argentino</option>
+        <option value="eur">€EUR - Euro</option>
+        <option value="jpy">¥JPY - Yen japonés</option>
+        <option value="cny">¥CNY - Yuan chino</option>
+      </select>
+      <br>
+      <br>
+      <input type="button" value="calcular" id="boton" class="input">
+        <h1>EL MONTO ES:</h1>
+        <H1 id="resultado">0</H1>
+      <input type="reset" value="Borrar" class="input">
+    </form>
+      
+    <script src="main.js">
+    </script>
+  </body>
+</html>
